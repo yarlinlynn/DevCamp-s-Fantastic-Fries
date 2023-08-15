@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'roboto slab', serif;
+}
+
+/* helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer30 {
+    height: 30px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus {
+    outline: none;
+}
+/*
+.anchor-link h1::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \foc1";
+    font-weight: 900;
+}
+*/
+
+/* footer styles */
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.footer > .footer-phone-hours span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+
+}
+
+.footer > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #cea135;
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px; 
+    font-size: 0.7em;
+    color: #858585;
+}
